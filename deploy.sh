@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 # abort on errors
 set -e
-rm -rf ./docs/.vuepress/dist && mkdir ./docs/.vuepress/dist
+# rm -rf ./docs/.vuepress/dist && mkdir ./docs/.vuepress/dist
 # build
 npm run build
 

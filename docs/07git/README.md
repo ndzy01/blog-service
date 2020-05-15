@@ -1,0 +1,19 @@
+# 版本回退
+
+git log --pretty=oneline
+
+git log
+
+```
+git reset --hard HEAD^ 回退到上一个版本
+git reset --hard cc6d6fba3016b20649389c043986c00515d9ef90 指定版本号
+```
+
+# 文件服务
+
+~~~
+git clone https://github.com/ndzy01/files-front.git
+git clone https://github.com/ndzy01/files-service.git
+git clone https://github.com/ndzy01/files.git
+~~~
+

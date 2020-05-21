@@ -5,4 +5,5 @@ module.exports = [
   { text: 'mongodb', link: '/05mongodb/' },
   { text: 'interview', link: '/06interview/' },
   { text: 'git', link: '/07git/' },
+  { text: 'win', link: '/08win/' },
 ]

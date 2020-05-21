@@ -19,3 +19,8 @@ git clone https://github.com/ndzy01/files-service.git
 git clone https://github.com/ndzy01/files.git
 ~~~
 
+# 清除用户信息
+git config --system --unset credential.helper
+git config --global --unset credential.helper
+git config --local --unset credential.helper
+
